@@ -63,7 +63,8 @@ var supplyList = [
         description: "These textured urban walls provide an interesting " + 
             "backdrop for notes, musings, drawings, doodles, and more.<br><br>"  + 
             "Indulge your inner graffiti artist - without the risk of jail time!",
-        photo: "../officeSupplies/images/walls_notebook.jpg",
+        photo: "https://raw.githubusercontent.com/happyinspirit/" + 
+            "randomOfficeSupplies/master/images/walls_notebook.jpg",
         price: "$12.15",
         link: "http://www.amazon.com/Walls-Notebook-Sherwood-Forlee/dp/159474324X"
     },
