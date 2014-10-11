@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Awesome Office Supplies</title>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:900' 
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/officeSupplies.js"></script>
+    <script type="text/javascript" src="js/random.js"></script>
+</head>
+
+<body onload="nextSupply()">
+    <header>
+        <h1>Supply your office with random awesomeness.</h1>
+        <p><button onclick="nextSupply()">Show random</button></p>
+    </header>
+    <div id="supply">
+            <span id="supplyPhoto"></span><br>
+            <h2 id="supplyName"></h2>
+            <p id="supplyID"></p>
+            <p id="supplyDescription"></p>
+            <p id="supplyPrice"></p>
+            <span id="supplyLink"></span>
+    </div>
+</body>
+</html>
+
